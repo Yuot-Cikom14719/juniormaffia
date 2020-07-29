@@ -1,0 +1,86 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+header{
+  background: url(https://cdn.pixabay.com/photo/2017/12/10/20/56/feather-3010848__340.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+ul li{
+  display: inline-block;
+  text-decoration: none;
+}
+ul li a{
+  text-decoration: none;
+  color: black;
+  padding-left: 15px 20px;
+  font-size: 30px;
+  border-radius: 6px;
+  border: 3px solid transparent;
+  transition: .5s;
+}
+ul li a:hover{
+  background: pink;
+  text-decoration: none;
+  color: green;
+}
+.active{
+  background: #fff;
+  border-radius: 5px;
+}
+.main{
+  max-width: 100%;
+  width: 100%;
+  margin: 10px;
+}
+.logo h1{
+  width: 150px;
+  margin-left: 20px;
+  margin-top: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: teal;
+  font-size: 22px;
+  height: auto;
+  float: left;
+}
+.title h1{
+  font-size: 50px;
+  border: 2px solid grey;
+  color: Blue;
+  font-style: italic;
+  font-weight: 900;
+}
+.button{
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  width: 50%;
+  align-items: center;
+  transform: translateY(-50%,-80%);
+}
+span{
+  font-size: 20px;
+}
+.btn{
+  width: 50%;
+  border: 1px solid black;
+  padding: 10px 30px;
+  font-size: 10px;
+  background: green;
+  color: white;
+  text-decoration: none;
+}
+.btn:hover{
+  background-color: teal;
+  color: sky-blue;
+}
